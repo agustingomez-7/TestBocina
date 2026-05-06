@@ -389,7 +389,7 @@ input.sliderX::-webkit-slider-thumb{-webkit-appearance: none;appearance: none;wi
   <div class="tab active" data-tab="all">Todos</div>
   <div class="tab" data-tab="temp">Temperatura</div>
   <div class="tab" data-tab="volt">Voltaje</div>
-  <div class="tab" data-tab="corr">Corriente</div>
+  <div class="tab" data-tab="corr">Voltaje Bocina</div>
   <div class="tab" data-tab="bat">Batería</div>
 </div>
 
@@ -869,7 +869,7 @@ btnCSV.onclick = () => {
     return;
   }
 
-  let csv = "Fecha;Hora;Temperatura;Voltaje;Corriente;Bateria\n";
+  let csv = "Fecha;Hora;Temperatura;Voltaje;Voltaje Bocina;Bateria\n";
 
 
   dataCSV.forEach(row => {
